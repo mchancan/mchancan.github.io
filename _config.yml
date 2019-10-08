@@ -1,1 +1,4 @@
-theme: jekyll-theme-cayman
+name: Xue Bin (Jason) Peng
+markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
