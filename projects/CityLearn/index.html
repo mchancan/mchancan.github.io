@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Advantage-Weighted Regression: Simple and Scalable Off-Policy Reinforcement Learning"
+title: "From Visual Place Recognition to Navigation: Learning Sample-Efficient Control Policies across Diverse Real World Environments"
 ---
 
 <center><h1>{{ page.title }}</h1></center>
@@ -9,8 +9,8 @@ title: "Advantage-Weighted Regression: Simple and Scalable Off-Policy Reinforcem
 	<center>
 		arXiv Preprint 2019<br>
 		<br>
-		<nobr>Xue Bin Peng</nobr> &emsp;&emsp; <nobr>Aviral Kumar</nobr> &emsp;&emsp; <nobr>Grace Zhang</nobr> &emsp;&emsp; <nobr>Sergey Levine</nobr><br>
-		<nobr>University of California, Berkeley</nobr><br>
+		<nobr>Marvin Chancán </nobr> &emsp;&emsp; <nobr>Michael Milford</nobr><br>
+		<nobr>Queensland University of Technology, Australia</nobr><br>
 		<br>
 		<img style="vertical-align:middle" src="awr_teaser.png"  width="100%" height="inherit"/>		
 	</center>
@@ -21,31 +21,40 @@ title: "Advantage-Weighted Regression: Simple and Scalable Off-Policy Reinforcem
 <td>
 	<hr>
 	<h3 style="margin-bottom:10px;">Abstract</h3>
-	In this paper, we aim to develop a simple and scalable reinforcement learning algorithm
-	that uses standard supervised learning methods as subroutines. Our goal is an algorithm
-	that utilizes only simple and convergent maximum likelihood loss functions, while also
-	being able to leverage off-policy data. Our proposed approach, which we refer to as 
-	advantage-weighted regression (AWR), consists of two standard supervised learning steps:
-	one to regress onto target values for a value function, and another to regress onto 
-	weighted target actions for the policy. The method is simple and general, can accommodate
-	continuous and discrete actions, and can be implemented in just a few lines of code on top
-	of standard supervised learning methods. We provide a theoretical motivation for AWR and 
-	analyze its properties when incorporating off-policy data from experience replay. We 
-	evaluate AWR on a suite of standard OpenAI Gym benchmark tasks, and show that it achieves
-	competitive performance compared to a number of well-established state-of-the-art RL 
-	algorithms. AWR is also able to acquire more effective policies than most off-policy
-	algorithms when learning from purely static datasets with no additional environmental
-	interactions. Furthermore, we demonstrate our algorithm on challenging continuous control
-	tasks with highly complex simulated characters.
+	Visual navigation tasks in real world environments
+	often require both self-motion and place recognition feedback.
+	While deep reinforcement learning has shown success in solving
+	these perception and decision-making problems in an end-toend
+	manner, these algorithms require large amounts of experience
+	to learn navigation policies from high-dimensional inputs,
+	which is generally impractical for real robots due to sample
+	complexity. In this paper, we address these problems with two
+	main contributions.We first leverage place recognition and deep
+	learning techniques combined with goal destination feedback
+	to generate compact, bimodal images representations that can
+	then be used to effectively learn control policies at kilometer
+	scale from a small amount of experience. Second, we present
+	an interactive and realistic framework, called CityLearn, that
+	enables for the first time the training of navigation algorithms
+	across city-sized, real-world environments with extreme environmental
+	changes. CityLearn features over 10 benchmark
+	real-world datasets often used in place recognition research
+	with more than 100 recorded traversals and across 60 cities
+	around the world. We evaluate our approach in two CityLearn
+	environments where our navigation policy is trained using a
+	single traversal. Results show our method can be over 2 orders
+	of magnitude faster than when using raw images and can also
+	generalize across extreme visual changes including day to night
+	and summer to winter transitions.
 </td>
 
 <td>
-	<h3> Paper: [<a href="2019_AWR.pdf">PDF</a>] &nbsp; &nbsp; &nbsp; Code: [<a href="https://github.com/xbpeng/awr">GitHub</a>] &nbsp; &nbsp; &nbsp; Preprint: [<a href="https://arxiv.org/abs/1910.00177">arXiv</a>] </h3>
+	<h3> Paper: [<a href="2019_AWR.pdf">PDF</a>] &nbsp; &nbsp; &nbsp; Code: [<a href="https://github.com/mchancan/citylearn">GitHub</a>] &nbsp; &nbsp; &nbsp; Preprint: [<a href="https://arxiv.org/abs/19999">arXiv</a>] </h3>
 </td>
 
 <tr>
 		<h3 style="margin-bottom:10px;">Video</h3>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/ROwJ_O2NINc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://youtu.be/JuZrNLIorDs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </tr>
 	
 <br>
@@ -55,15 +64,13 @@ title: "Advantage-Weighted Regression: Simple and Scalable Off-Policy Reinforcem
 <pre>
 @article{
 	AWRPeng19,
-	author = {Xue Bin Peng and Aviral Kumar and Grace Zhang and Sergey Levine},
-	title = {Advantage-Weighted Regression: Simple and Scalable Off-Policy Reinforcement Learning},
-	journal = {CoRR},
-	volume = {abs/1910.00177},
+	author = {Marvin Chanc\'an and Michael Milford},
+	title = {From Visual Place Recognition to Navigation: Learning Sample-Efficient Control Policies across Diverse Real World Environments},
+	journal = {arXiv},
+	volume = {abs/199999},
 	year = {2019},
-	url = {https://arxiv.org/abs/1910.00177},
+	url = {https://arxiv.org/abs/19999},
 	archivePrefix = {arXiv},
-	eprint = {1910.00177},
-	timestamp = {Tue, 01 October 2019 11:27:50 +0200},
-	bibsource = {dblp computer science bibliography, https://dblp.org}
+	eprint = {1919999},
 }
 </pre>
