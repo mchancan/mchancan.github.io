@@ -1,0 +1,71 @@
+---
+layout: default
+title: "A Compact Neural Architecture for Visual Place Recognition"
+---
+
+<center><h1>{{ page.title }}</h1></center>
+
+<td>
+	<center>
+		<nobr>Marvin Chancán </nobr> &emsp;&emsp; <nobr>Michael Milford</nobr><br>
+		<nobr>Queensland University of Technology, Australia</nobr><br>
+		<br>
+		arXiv:1910.xxxx (submitted to RA-L with ICRA 2020 option)<br>
+		<br>
+		<img style="vertical-align:middle" src="citylearn.png"  width="70%" height="inherit"/>		
+	</center>
+</td>
+
+<br>
+	
+<td>
+	<hr>
+	<h3 style="margin-bottom:10px;">Abstract</h3>
+	Visual navigation tasks in real world environments
+	often require both self-motion and place recognition feedback.
+	While deep reinforcement learning has shown success in solving
+	these perception and decision-making problems in an end-toend
+	manner, these algorithms require large amounts of experience
+	to learn navigation policies from high-dimensional inputs,
+	which is generally impractical for real robots due to sample
+	complexity. In this paper, we address these problems with two
+	main contributions.We first leverage place recognition and deep
+	learning techniques combined with goal destination feedback
+	to generate compact, bimodal images representations that can
+	then be used to effectively learn control policies at kilometer
+	scale from a small amount of experience. Second, we present
+	an interactive and realistic framework, called CityLearn, that
+	enables for the first time the training of navigation algorithms
+	across city-sized, real-world environments with extreme environmental
+	changes. CityLearn features over 10 benchmark
+	real-world datasets often used in place recognition research
+	with more than 100 recorded traversals and across 60 cities
+	around the world. We evaluate our approach in two CityLearn
+	environments where our navigation policy is trained using a
+	single traversal. Results show our method can be over 2 orders
+	of magnitude faster than when using raw images and can also
+	generalize across extreme visual changes including day to night
+	and summer to winter transitions.
+</td>
+
+<td>
+	<h3> Manuscript: [<a href="2019_FlyNet.pdf">PDF</a>] &nbsp; &nbsp; &nbsp; Code: [<a href="https://github.com/mchancan/flynet">GitHub</a>] &nbsp; &nbsp; &nbsp; arXiv: [<a href="https://arxiv.org/abs/1910.xxxx">arXiv</a>] </h3>
+</td>
+
+<br>
+<br>
+
+<h3 style="margin-bottom:0px;">Bibtex</h3>
+<pre>
+@article{
+	CityLearnMC19,
+	author = {Marvin Chanc\'an, Michael Milford},
+	title = {A Compact Neural Architecture for Visual Place Recognition},
+	volume = {abs/1910.04335},
+	year = {2019},
+	url = {https://arxiv.org/abs/1910.xxxx},
+	archivePrefix = {arXiv},
+	eprint = {1910.xxxx},
+    	primaryClass = {cs.RO}
+}
+</pre>
