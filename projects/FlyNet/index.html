@@ -21,31 +21,29 @@ title: "A Compact Neural Architecture for Visual Place Recognition"
 <td>
 	<hr>
 	<h3 style="margin-bottom:10px;">Abstract</h3>
-	Visual navigation tasks in real world environments
-	often require both self-motion and place recognition feedback.
-	While deep reinforcement learning has shown success in solving
-	these perception and decision-making problems in an end-toend
-	manner, these algorithms require large amounts of experience
-	to learn navigation policies from high-dimensional inputs,
-	which is generally impractical for real robots due to sample
-	complexity. In this paper, we address these problems with two
-	main contributions.We first leverage place recognition and deep
-	learning techniques combined with goal destination feedback
-	to generate compact, bimodal images representations that can
-	then be used to effectively learn control policies at kilometer
-	scale from a small amount of experience. Second, we present
-	an interactive and realistic framework, called CityLearn, that
-	enables for the first time the training of navigation algorithms
-	across city-sized, real-world environments with extreme environmental
-	changes. CityLearn features over 10 benchmark
-	real-world datasets often used in place recognition research
-	with more than 100 recorded traversals and across 60 cities
-	around the world. We evaluate our approach in two CityLearn
-	environments where our navigation policy is trained using a
-	single traversal. Results show our method can be over 2 orders
-	of magnitude faster than when using raw images and can also
-	generalize across extreme visual changes including day to night
-	and summer to winter transitions.
+	State-of-the-art algorithms for visual place recognition can be broadly
+	split into two categories: computationally
+	expensive deep-learning/image retrieval based techniques with
+	minimal biological plausibility, and computationally cheap,
+	biologically inspired models that yield poor performance in real
+	world environments. In this paper we present a new compact
+	and high-performing system that bridges this divide for the first
+	time. Our approach comprises two key components: FlyNet, a
+	compact, sparse two-layer neural network inspired by fruit fly
+	brain architectures, and a one-dimensional continuous attractor
+	neural network (CANN). Our FlyNet+CANN network combines
+	the compact pattern recognition capabilities of the FlyNet
+	model with the powerful temporal filtering capabilities of an
+	equally compact CANN, replicating entirely in a neural network
+	implementation the functionality that yields high performance
+	in algorithmic localization approaches like SeqSLAM. We
+	evaluate our approach and compare it to three state-of-the-art methods
+	on two benchmark real-world datasets with small
+	viewpoint changes and extreme appearance variations including
+	different times of day (afternoon to night) where it achieves an
+	AUC performance of 87%, compared to 60% for Multi-Process
+	Fusion, 46% for LoST-X and 1% for SeqSLAM, while being
+	6.5, 310, and 1.5 times faster respectively.
 </td>
 
 <td>
