@@ -52,6 +52,15 @@ ul.posts li {
     list-style: none;
 }
 
+ul {
+	list-style-position: outside;
+	list-style-type: square;
+}
+
+li {
+	margin-top:0.9em;
+}
+
 div.art_thumbnail_box {
 	float: left;
 	width: 100px;
