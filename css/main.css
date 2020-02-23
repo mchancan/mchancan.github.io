@@ -73,6 +73,13 @@ pre, tt {
 	font-family: monaco, monospace;
 }
 
+pre {
+	background-color: #EBECE4;
+	border-radius: 3px;
+	white-space: pre-wrap;
+	border: 1px solid gray;
+}
+
 a, a > tt {
 	color: #224b8d;
 	text-decoration: none;
