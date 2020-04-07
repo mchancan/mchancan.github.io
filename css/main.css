@@ -15,7 +15,7 @@ body {
 nav ul, footer ul {
     /*<--.font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
     /*font-family: "Helvetica", Helvetica, sans-serif;*/
-    font-family: "Montserrat", Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -41,6 +41,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   font-weight: normal;
+  font-size: 90%;
   background-color: #ffffff; 
   text-align:left; /* for IE */
   margin-top: 30px; 
@@ -94,7 +95,7 @@ tt {
 pre, tt {
 	font-size: 90%;
 	/*font-family: monaco, monospace;*/
-	font-family: "Montserrat",  Montserrat, sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 
 pre {
