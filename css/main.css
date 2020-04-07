@@ -39,7 +39,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  /*line-height: 24px;*/
   font-weight: normal;
   font-size: 90%;
   background-color: #ffffff; 
@@ -84,7 +84,7 @@ body {
 }
 
 #layout-menu a {
-	line-height: 1.5em;
+	/*line-height: 1.5em;*/
 	margin-left: 0.5em;
 }
 
@@ -198,7 +198,7 @@ p {
 	margin-top: 0.0em;
 	margin-bottom: 0.8em;
 	padding: 0;
-	line-height: 1.3em;
+	/*line-height: 1.3em;*/
 }
 
 pre {
