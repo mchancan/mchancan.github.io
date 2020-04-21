@@ -97,7 +97,8 @@ tt {
 pre, tt {
 	font-size: 90%;
 	/*font-family: monaco, monospace;*/
-	font-family: "Montserrat", sans-serif;
+	/*font-family: "Montserrat", sans-serif;*/
+	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 
 pre {
