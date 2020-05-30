@@ -1,10 +1,21 @@
+/* Default css file for jemdoc. */
+
 table#tlayout {
     border: none;
     border-collapse: separate;
     background: white;
 }
-
+/*
+body {
+	background: white;
+	padding-bottom: 8px;
+	margin: 0;
+}
+*/
 nav ul, footer ul {
+    /*<--.font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
+    /*font-family: "Helvetica", Helvetica, sans-serif;*/
+    /*font-family: "Montserrat", sans-serif;*/
     font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
     padding: 0px;
     list-style: none;
@@ -18,7 +29,15 @@ html {
   background-color: #eeeeee; 
 }
 
-body {
+body { 
+  /*font-family: Georgia, Helvetica, Arial, Verdana, san-serif, Times;*/
+  /*font-family: "Helvetica", Helvetica, sans-serif;*/
+  /*font-family: "Montserrat",  Montserrat, sans-serif;
+  font-size: 14px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #213875;*/
+  /*font-family: "Montserrat", sans-serif;*/
   font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -67,6 +86,7 @@ body {
 }
 
 #layout-menu a {
+	/*line-height: 1.5em;*/
 	margin-left: 0.5em;
 }
 
@@ -76,6 +96,8 @@ tt {
 
 pre, tt {
 	font-size: 90%;
+	/*font-family: monaco, monospace;*/
+	/*font-family: "Montserrat", sans-serif;*/
 	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 
@@ -122,9 +144,11 @@ div.menu-item {
 
 div#toptitle {
 	padding-bottom: 0.2em;
-	margin-bottom: 0.2em;
+	margin-bottom: 1.5em;
+	/*border-bottom: 3px double gray;*/
 }
 
+/* Reduce space if we begin the page with a title. */
 div#toptitle + h2, div#toptitle + h3 {
 	margin-top: 0em;
 }
@@ -147,16 +171,15 @@ strong {
 
 h1, h2, h3 {
 	margin-top: 0.7em;
-	margin-bottom: 0.0em;
-	padding-bottom: 0.0em;
+	margin-bottom: 0.5em;
+	padding-bottom: 0.2em;
 	line-height: 1.0em;
 	padding-top: 0.5em;
-	/*border-bottom: 1px solid #aaaaaa;*/
-	border-bottom: none;
+	border-bottom: 1px solid #aaaaaa;
 }
 
 h1 {
-	font-size: 220%;
+	font-size: 200%;
 	border-bottom: none;
 }
 
@@ -178,6 +201,7 @@ p {
 	margin-top: 0.0em;
 	margin-bottom: 0.8em;
 	padding: 0;
+	/*line-height: 1.3em;*/
 }
 
 pre {
@@ -335,7 +359,7 @@ span.comment, span.comment > *, span.string, span.string > * {
 
 #fwtitle #toptitle {
 	padding-left: 0.5em;
-	margin-bottom: 0.2em;
+	margin-bottom: 0.5em;
 }
 
 #layout-content h1:first-child, #layout-content h2:first-child, #layout-content h3:first-child {
@@ -344,7 +368,7 @@ span.comment, span.comment > *, span.string, span.string > * {
 
 div#toptitle h1, #layout-content div#toptitle h1 {
 	margin-bottom: 0.0em;
-	padding-bottom: 0.0em;
+	padding-bottom: 0.1em;
 	padding-top: 0;
 	margin-top: 0.5em;
 	border-bottom: none;
