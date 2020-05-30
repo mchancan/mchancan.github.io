@@ -147,16 +147,16 @@ strong {
 
 h1, h2, h3 {
 	margin-top: 0.7em;
-	margin-bottom: 0.5em;
-	padding-bottom: 0.2em;
+	margin-bottom: 0.0em;
+	padding-bottom: 0.0em;
 	line-height: 1.0em;
 	padding-top: 0.5em;
 	border-bottom: 1px solid #aaaaaa;
 }
 
 h1 {
-	font-size: 200%;
-	border-bottom: none;
+	font-size: 250%;
+	border-bottom: 0.0em;
 }
 
 h2 {
