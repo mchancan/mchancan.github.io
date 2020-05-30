@@ -171,7 +171,7 @@ strong {
 
 h1, h2, h3 {
 	margin-top: 0.7em;
-	margin-bottom: 0.5em;
+	margin-bottom: -0.5em;
 	padding-bottom: 0.2em;
 	line-height: 1.0em;
 	padding-top: 0.5em;
@@ -181,6 +181,7 @@ h1, h2, h3 {
 h1 {
 	font-size: 230%;
 	border-bottom: none;
+	margin-bottom: -1.0em;
 }
 
 h2 {
