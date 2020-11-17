@@ -1,0 +1,68 @@
+---
+layout: default
+title: "DeepSeqSLAM: A Trainable CNN+RNN for Joint Global Description and Sequence-based Place Recognition"
+---
+
+<center><h1>{{ page.title }}</h1></center>
+
+<td>
+	<center>
+		<nobr>Marvin Chancán </nobr> &emsp;&emsp; <nobr>Michael Milford</nobr><br>
+		<nobr>QUT</nobr><br>
+		<br>
+		<em><a href="https://neurips.cc/Conferences/2020/" target="_blank">NeurIPS 2020</a> Workshop on Machine Learning for Autonomous Driving (<a href="https://ml4ad.github.io/" target="_blank">ML4AD</a>)</em><br>
+		<br>
+		<img style="vertical-align:middle" src="deepseqslam.png"  width="70%" height="inherit"/>		
+	</center>
+</td>
+
+<br>
+	
+<td>
+	<hr>
+	<h3 style="margin-bottom:10px;">Abstract</h3>
+	Sequence-based place recognition methods for all-weather navigation 
+  are well-known for producing state-of-the-art results under challenging 
+  day-night or summer-winter transitions. These systems, however, rely on 
+  complex handcrafted heuristics for sequential matching - which are applied 
+  on top of a pre-computed pairwise similarity matrix between reference and 
+  query image sequences of a single route - to further reduce false-positive 
+  rates compared to single-frame retrieval methods. As a result, performing 
+  multi-frame place recognition can be extremely slow for deployment on autonomous 
+  vehicles or evaluation on large datasets, and fail when using relatively short 
+  parameter values such as a sequence length of 2 frames. In this paper, we propose 
+  DeepSeqSLAM: a trainable CNN+RNN architecture for jointly learning visual 
+  and positional representations from a single monocular image sequence of a route. 
+  We demonstrate our approach on two large benchmark datasets, Nordland and Oxford
+  RobotCar - recorded over 728 km and 10 km routes, respectively, each during 1 year
+  with multiple seasons, weather, and lighting conditions. On Nordland, we compare our
+  method to two state-of-the-art sequence-based methods across the entire route under
+  summer-winter changes using a sequence length of 2 and show that our approach can get
+  over 72% AUC compared to 27% AUC for Delta Descriptors and 2% AUC for SeqSLAM;
+  while drastically reducing the deployment time from around 1 hour to 1 minute against both.
+</td>
+
+<td>
+	<h3> Preprint: [<a href="2011.XXXXX.pdf" target="_blank">PDF</a>] &nbsp; &nbsp; &nbsp;
+  ArXiv: [<a href="https://arxiv.org/abs/2011.XXXX" target="_blank">ABS</a>] &nbsp; &nbsp; &nbsp; 
+  Code: [<a href="https://github.com/mchancan/deepseqslam" target="_blank">GitHub</a>]
+  </h3>
+</td>
+
+<tr>
+	<h3 style="margin-bottom:10px;">Video</h3>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/xxxx-xxxx" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</tr>
+
+<br>
+<br>
+
+<h3 style="margin-bottom:0px;">Bibtex</h3>
+<pre>
+@article{chancan2020deepseqslam,
+	author = {M. {Chanc\'an} and M. {Milford}},
+	title = {DeepSeqSLAM: A Trainable CNN+RNN for Joint Global Description and Sequence-based Place Recognition},
+	journal = {arXiv preprint arXiv:2011.xxx},
+	year = {2020}
+}
+</pre>
