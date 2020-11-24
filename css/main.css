@@ -1,4 +1,4 @@
-/* Default css file for jemdoc. */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
 table#tlayout {
     border: none;
@@ -16,7 +16,8 @@ nav ul, footer ul {
     /*<--.font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
     /*font-family: "Helvetica", Helvetica, sans-serif;*/
     /*font-family: "Montserrat", sans-serif;*/
-    font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+    /*font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;*/
+    font-family: "Source Sans Pro", Verdana, Helvetica, sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -38,8 +39,8 @@ body {
   line-height: 1.5;
   color: #213875;*/
   /*font-family: "Montserrat", sans-serif;*/
-  font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-weight: 400;
+  /*font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;*/
+  font-family: "Source Sans Pro", Verdana, Helvetica, sans-serif;  font-weight: 400;
   font-size: 14px;
   /*line-height: 24px;*/
   font-weight: normal;
@@ -98,7 +99,8 @@ pre, tt {
 	font-size: 90%;
 	/*font-family: monaco, monospace;*/
 	/*font-family: "Montserrat", sans-serif;*/
-	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+        /*font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;*/
+        font-family: "Source Sans Pro", Verdana, Helvetica, sans-serif;
 }
 
 pre {
