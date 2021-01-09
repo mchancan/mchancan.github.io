@@ -1,3 +1,5 @@
+baseurl: ""
+
 name: Marvin Chancán
 markdown: kramdown
 
