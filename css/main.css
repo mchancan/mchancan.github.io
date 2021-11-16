@@ -27,7 +27,8 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 html {
-  background-color: #eeeeee; 
+  /*background-color: #eeeeee; */
+  background-color: #ffffff;
 }
 
 body { 
